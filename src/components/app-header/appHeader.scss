@@ -1,0 +1,9 @@
+.app-header {
+	padding: 30px;
+  &__title {
+		padding: 5px;
+		text-align: center;
+		background: linear-gradient(to bottom,
+		white 0, white 62%, gold 62%, gold 100%);
+  }
+}
