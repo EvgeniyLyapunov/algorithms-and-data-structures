@@ -18,7 +18,8 @@ const MainPage = () => {
         <Col lg={4} md={6} sm={12}>
           <ThemeCard
             title={'Алгоритмы сортировки'} 
-            text={'Раздел пока пустой'}/>
+            text={'Сортировка пузырьком'}
+            path={'/sort'}/>
         </Col>
         <Col lg={4} md={6} sm={12}>
           <ThemeCard

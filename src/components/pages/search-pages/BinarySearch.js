@@ -13,7 +13,6 @@ const BinarySearch = () => {
       <h2 className='text-center mb-3'>Бинарный поиск</h2>
       <Tabs
         defaultActiveKey="descr"
-        id="uncontrolled-tab-example"
         className="mb-3"
       >
         <Tab eventKey="descr" title="Описание">
@@ -124,7 +123,7 @@ const BinarySearch = () => {
       middle = Math.floor((right + left) / 2);
     }
 
-    // при завершении цикла поска index либо изменит значение по умолчанию, это значит, что элемент найден,
+    // при завершении цикла поиска, index либо изменит значение по умолчанию, это значит, что элемент найден,
     // если заданного элемента в массиве нет, функция вернёт значение index по умолчанию, т.е. -1
     return index;
   }`}

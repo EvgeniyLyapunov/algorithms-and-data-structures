@@ -1,19 +1,20 @@
+
 import { Row, Col } from 'react-bootstrap';
 
 import ThemeCard from '../../theme-card/ThemeCard';
 
-import './search-page.scss';
+import './sort-main.scss'
 
-const SearchPage = () => {
-
+const SortMain = () => {
   return(
-    <div className='search-page'>
+    <div className='sort-page'>
+      <h2 className='text-center mb-3'>Алгоритмы сортировки</h2>
       <Row>
       <Col lg={4} md={6} sm={12}>
           <ThemeCard
-            title={'Алгоритм Бинарный поиск'} 
+            title={'Алгоритм Сортировка пузырьком'} 
             text={'описание, реализация на js, комментарии к коду'}
-            path={'/search/binarysearch'}
+            path={'/sort/bubblesort'}
             back={'/'}/>
         </Col>
       </Row>
@@ -21,4 +22,4 @@ const SearchPage = () => {
   )
 }
 
-export default SearchPage;
+export default SortMain;
