@@ -8,6 +8,7 @@ import SearchMain from '../pages/search-main/SearchMain';
 import SortMain from '../pages/sort-main/SortMain';
 import BinarySearch from '../pages/search-pages/BinarySearch';
 import BubbleSort from '../pages/sort-pages/BubbleSort';
+import MergeSort from '../pages/sort-pages/MergeSort';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/sort" element={<SortMain/>}/>
           <Route path="/search/binarysearch" element={<BinarySearch/>}/>
           <Route path="/sort/bubblesort" element={<BubbleSort/>}/>
+          <Route path="/sort/mergesort" element={<MergeSort/>}/>
         </Routes>
       </Container>
     </BrowserRouter>
