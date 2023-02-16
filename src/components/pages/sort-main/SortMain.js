@@ -24,6 +24,13 @@ const SortMain = () => {
               path={'/sort/mergesort'}
               back={'/'}/>
           </Col>
+          <Col lg={4} md={6} sm={12}>
+            <ThemeCard
+              title={'Алгоритм Быстрая сортировка'} 
+              text={'описание, реализация на js, комментарии к коду'}
+              path={'/sort/quicksort'}
+              back={'/'}/>
+          </Col>
       </Row>
     </div>
   )
