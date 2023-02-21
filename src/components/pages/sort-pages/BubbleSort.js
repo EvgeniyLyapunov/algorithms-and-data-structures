@@ -5,8 +5,6 @@ import Highlight from 'react-highlight';
 // import '../../../../node_modules/highlight.js/styles/atom-one-dark-reasonable.css';
 import '../../../../node_modules/highlight.js/styles/devibeans.min.css';
 
-import './bubble-sort.scss';
-
 const BubbleSort = () => {
   return(
     <>

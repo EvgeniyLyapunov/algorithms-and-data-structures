@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import Highlight from 'react-highlight';
 import '../../../../node_modules/highlight.js/styles/devibeans.min.css';
 
-import './quick-sort.scss';
-
 const QuickSort = () => {
   return(
     <>

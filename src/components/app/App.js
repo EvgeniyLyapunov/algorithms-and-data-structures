@@ -10,6 +10,7 @@ import BinarySearch from '../pages/search-pages/BinarySearch';
 import BubbleSort from '../pages/sort-pages/BubbleSort';
 import MergeSort from '../pages/sort-pages/MergeSort';
 import QuickSort from '../pages/sort-pages/QuickSort';
+import CountSort from '../pages/sort-pages/CountSort';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/sort/bubblesort" element={<BubbleSort/>}/>
           <Route path="/sort/mergesort" element={<MergeSort/>}/>
           <Route path="/sort/quicksort" element={<QuickSort/>}/>
+          <Route path="/sort/countsort" element={<CountSort/>}/>
         </Routes>
       </Container>
     </BrowserRouter>
